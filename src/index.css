@@ -1,3 +1,9 @@
+:root{
+  --mainPurple: rgb(168, 55, 212);
+  --mainPurpleDarker: rgb(88, 21, 115); 
+  --bg: #e8fff9;
+
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

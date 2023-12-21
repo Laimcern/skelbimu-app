@@ -1,0 +1,19 @@
+.content{
+    width: 1000px;
+    padding-top: 100px;
+    min-height: 1100px;
+    padding-bottom: 350px;
+    background-color: #e8fff9;
+}
+body{
+    width: 1000px;
+    margin:0 auto;
+    font-family: 'Onest', sans-serif;
+    color: rgb(168, 55, 212);
+}
+h1{
+    text-align: center;
+    font-size: 35pt;
+}
+
+

@@ -1,0 +1,69 @@
+.grid-container{
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 280px 280px 280px;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.grid-item{
+    background-color:#bbffeb;
+    border: 5px solid #a7ffe5;
+    height: 325px;
+    display: block;
+    transition: border 0.4s;
+}
+.grid-item:hover{
+    border: 5px solid #86dbc2;
+}
+.grid-item div{
+    word-wrap: break-word;
+    width: 95%;
+    margin:0 auto;
+}
+.grid-item img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 100%;
+    margin: 0;
+}
+.post-title{
+    font-size: large;
+    font-weight: 600;
+    padding-top: 5px;
+    margin: 0;
+}
+.post-description{
+    font-size: 10pt;
+    margin: 0;
+}
+.post-price{
+    text-align: center;
+    font-size: large;
+    background-color: #86dbc2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0;
+}
+.grid-item .image{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    background-color: #abffe6;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.grid-item .categories{
+    font-size: 8pt;
+    display: flex;
+    align-items: center;
+}
+.grid-item .categories div{
+    background-color: var(--mainPurple);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px 2px;
+}
+.slide-container{
+    height: 130px;
+    background-color: #aaedd9;
+}

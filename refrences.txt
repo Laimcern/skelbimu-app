@@ -1,0 +1,6 @@
+React JS CRUD Application | Asp.Net Core Web API + Entity Framework + Sql Server
+https://www.youtube.com/watch?v=OrHO7UeDwZc&ab_channel=ManojKumar
+
+BEST Ways to Handle and Validate React Forms without a Library
+https://www.youtube.com/watch?v=tIdNeoHniEY&ab_channel=LamaDev
+

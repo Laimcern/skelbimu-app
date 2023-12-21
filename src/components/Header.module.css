@@ -1,0 +1,47 @@
+.header{
+    background-image: url(../Images/header.png); /* bbffeb */
+    height: 100px;   
+    position: fixed;
+    z-index: 1000;
+    width: 1000px;
+    font-size: 15pt;
+    border-top: 2px solid var(--mainPurple);
+}
+.navbar{
+    display: flex;
+    width: 1000px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: var(--mainPurple);
+}
+.link span{
+    margin-left: 5px;
+}
+.link:hover {
+    background-color: #86dbc2;
+    color: var(--mainPurpleDarker);
+}
+.usericon{
+    width: 60px;
+    height: 60px;
+    color: var(--mainPurple);
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.usericon:hover{
+    color: var(--mainPurpleDarker);
+}
+.usertext{
+    font-size: 10pt;
+    position: absolute;
+    right: 0;
+}

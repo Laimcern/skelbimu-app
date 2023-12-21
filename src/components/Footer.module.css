@@ -1,0 +1,7 @@
+.footer{
+    color:gray;
+    background-color: #f0fffb;
+    padding: 75px 150px 10px 150px;
+    background-image: url(../Images/footer.png);
+    font-size: small;
+}

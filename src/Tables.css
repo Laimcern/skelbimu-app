@@ -1,0 +1,92 @@
+.crud{
+    margin: auto;
+    width: 950px;
+    border-collapse: collapse;
+    background-color:rgb(252, 228, 253);
+    border-top: 3px var(--mainPurple) solid;
+}
+.crud td{
+    padding: 0px;
+    border: 1px var(--mainPurple) solid;
+}
+.crud th{
+    padding: 5px;
+    border: 1px var(--mainPurple) solid;
+    background-color:  var(--mainPurpleDarker);
+    text-align: left;
+    color: var(--bg);
+}
+.crud tr:nth-child(odd){
+    background-color:rgb(246, 211, 248);
+}
+.crud button, .editLink{
+    border: none;
+    background-color: none;
+    width: 100%;
+    height: 22px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.editLink{
+    display: inline-block;
+    margin: 0;
+
+    font-size: 11pt;
+}
+.editLink span{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.crud button:hover{
+    color: rgba(0,0,0, 0.7);
+}
+.crud b{
+    padding: 5px;
+}
+.crud input{
+    width: 99.5%;
+    border: none;
+    height: 20px;
+}
+.crud label{
+    color: var(--mainPurple);
+    float: right;
+}
+.create{
+    color: rgb(4, 83, 4);
+    background-color: rgb(152, 255, 152);
+}
+.create:hover{
+    background-color: rgb(48, 194, 48);
+}
+.edit, .editLink{
+    color: rgb(149, 0, 255);
+    background-color: rgb(195, 186, 255)
+}
+.edit:hover, .editLink:hover{
+    background-color: rgb(76, 0, 255);
+}
+.delete{
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 176, 176);
+}
+.delete:hover{
+    background-color: red;
+}
+.cell span{
+    font-size: 10pt;
+    color: rgb(190, 131, 193);
+}
+.cell input{
+    width: 96%;
+}
+.cell input:invalid{
+    color: rgb(218, 17, 17);
+}
+.cell input:valid{
+    color: rgb(27, 205, 27);
+}

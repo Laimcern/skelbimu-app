@@ -1,0 +1,75 @@
+.uploadForm{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(196, 255, 231);
+    border-radius: 50px;
+    border-top: 3px var(--mainPurple) solid;
+    border-bottom: 2px black solid;
+    padding: 50px 150px;
+}
+.uploadForm label{
+    display: block;
+    margin-top: 15px;
+}
+.uploadForm input{
+    font-size: 14pt;
+    height: 45px;
+    width: 594px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: gray;
+}
+.uploadForm input[name="kaina"]{
+    text-align: center;
+}
+.uploadForm button{
+    height: 50px;
+    width: 100%;
+    border: none;
+    font-size: 20pt;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.uploadForm span{
+    width: 180px;
+    font-size: 8pt;
+    color: red;
+    display: none;
+    padding-left: 5px;
+}
+.uploadForm input:invalid[focused="true"] ~ span{
+    display: inline;
+    position: absolute;
+}
+.uploadForm input:valid{
+    border-color: rgb(0, 255, 0);
+}
+.uploadForm textarea{
+    height: 200px;
+    resize: vertical;
+    border-radius: 5px;
+    border-color: black;
+}
+.photos{
+    border-radius: 10px;
+    background-color: rgb(149, 227, 196);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto;
+}
+.photos img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.photos img:hover{
+    opacity: 0.5;
+    background-color: red;
+}
+.uploadForm p{
+    text-align: center;
+    color: gray;
+}
